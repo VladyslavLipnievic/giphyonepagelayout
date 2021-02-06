@@ -7,7 +7,7 @@ export default class GetGiphy extends React.Component {
     this.state = {
       loading: true,
       GiphyData: [],
-      limit: 6,
+      limit: 20,
       showModal: false,
       caption: "",
     };
